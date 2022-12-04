@@ -365,7 +365,6 @@ a:focus {
   height: 44px;
   padding: 14px;
   fill: var(--text-color-third);
-  position: center;
 }
 
 .icon-footer-background {
@@ -417,7 +416,6 @@ a:focus {
   height: 44px;
   padding: 14px;
   fill: var(--icon-team-color);
-  position: center;
 }
 
 .icon-team:hover,
