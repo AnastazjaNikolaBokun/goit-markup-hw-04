@@ -177,7 +177,7 @@ a:focus {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/imgbackground.jpg);
+    url(../images/imgbackground.jpg);
   background-size: cover;
   text-align: center;
 }
