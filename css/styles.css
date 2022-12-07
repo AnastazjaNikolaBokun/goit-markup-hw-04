@@ -88,13 +88,21 @@ a:focus {
   align-items: flex-start;
 }
 
+.list {
+  display: flex;
+}
+
 .contact {
   color: var(--text-color-second);
   padding: 0 0 0 10px;
+}
 
-  /* border-color: rgb(0, 0, 0);
-  border-width: 1px;
-  border-style: dashed; */
+.list:hover svg {
+  fill: var(--mark-color);
+}
+
+.list:hover a {
+  color: var(--mark-color);
 }
 
 .section {
@@ -344,11 +352,6 @@ a:focus {
 
 .smartphone {
   margin: 0 0 0 20px;
-}
-
-.icon-header:hover,
-.icon-header:focus {
-  fill: var(--mark-color);
 }
 
 .footer-icons {
