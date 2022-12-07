@@ -102,7 +102,7 @@ a:focus {
   fill: var(--mark-color);
 }
 
-.list:hover a, 
+.list:hover a,
 .list:focus a {
   color: var(--mark-color);
 }
