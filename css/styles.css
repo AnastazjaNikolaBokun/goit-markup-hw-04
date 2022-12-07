@@ -97,11 +97,13 @@ a:focus {
   padding: 0 0 0 10px;
 }
 
-.list:hover svg {
+.list:hover svg,
+.list:focus svg {
   fill: var(--mark-color);
 }
 
-.list:hover a {
+.list:hover a, 
+.list:focus a {
   color: var(--mark-color);
 }
 
